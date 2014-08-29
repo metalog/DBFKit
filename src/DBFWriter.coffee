@@ -100,7 +100,7 @@ class DBFWriter
         totalFieldsLength = 1
         for head in header
             if FIELDSIZE[head.type]
-                head.size = FIELDSIZE[head.type]
+                head.size = head.size || FIELDSIZE[head.type]
                 head.precision = 0 unless head.precision
                 totalFieldsLength += head.size
             else

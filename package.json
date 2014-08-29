@@ -1,6 +1,6 @@
 {
-    "name": "dbfkit", 
-    "version": "1.0.9", 
+    "name": "dbfkit-fork", 
+    "version": "1.0.10", 
     "description": "help to parse or write dbf file", 
     "main": "index.js", 
     "dependencies": {
@@ -17,16 +17,16 @@
     }, 
     "repository": {
         "type": "git", 
-        "url": "https://github.com/chenwb-m/DBFKit.git"
+        "url": "https://github.com/ixiongdi/DBFKit.git"
     }, 
     "keywords": [
         "dbf", 
         "dbfkit",
         "dBase"
     ], 
-    "author": "chenwb-m", 
+    "author": "ixiongdi", 
     "license": "MIT", 
     "bugs": {
-        "url": "https://github.com/chenwb-m/DBFKit/issues"
+        "url": "https://github.com/ixiongdi/DBFKit.git"
     }
 }
