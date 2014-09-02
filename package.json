@@ -1,11 +1,11 @@
 {
     "name": "dbfkit-fork", 
-    "version": "1.1.0", 
+    "version": "1.1.1", 
     "description": "help to parse or write dbf file", 
     "main": "index.js", 
     "dependencies": {
         "jszip": "*",
-        "iconv": "*",
+        "iconv-lite": "*",
         "exec-sync": "*"
     }, 
     "devDependencies": {
