@@ -6,7 +6,7 @@ iconv  = require 'iconv-lite'
 JSZip = require "jszip"
 FileKit = require "./FileKit"
 
-execSync = require 'exec-sync'
+{execSync} = require 'child_process'
 
 FIELDSIZE = 
     C: 255

@@ -5,8 +5,7 @@
     "main": "index.js", 
     "dependencies": {
         "jszip": "*",
-        "iconv-lite": "*",
-        "exec-sync": "*"
+        "iconv-lite": "*"
     }, 
     "devDependencies": {
         "coffee-script": "*"
